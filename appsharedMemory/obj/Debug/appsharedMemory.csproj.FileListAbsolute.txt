@@ -1,0 +1,9 @@
+C:\Users\Abdou Fatah Ndiaye\source\repos\appsharedMemory\appsharedMemory\bin\Debug\appsharedMemory.exe.config
+C:\Users\Abdou Fatah Ndiaye\source\repos\appsharedMemory\appsharedMemory\bin\Debug\appsharedMemory.exe
+C:\Users\Abdou Fatah Ndiaye\source\repos\appsharedMemory\appsharedMemory\bin\Debug\appsharedMemory.pdb
+C:\Users\Abdou Fatah Ndiaye\source\repos\appsharedMemory\appsharedMemory\obj\Debug\appsharedMemory.csproj.AssemblyReference.cache
+C:\Users\Abdou Fatah Ndiaye\source\repos\appsharedMemory\appsharedMemory\obj\Debug\appsharedMemory.Properties.Resources.resources
+C:\Users\Abdou Fatah Ndiaye\source\repos\appsharedMemory\appsharedMemory\obj\Debug\appsharedMemory.csproj.GenerateResource.cache
+C:\Users\Abdou Fatah Ndiaye\source\repos\appsharedMemory\appsharedMemory\obj\Debug\appsharedMemory.csproj.CoreCompileInputs.cache
+C:\Users\Abdou Fatah Ndiaye\source\repos\appsharedMemory\appsharedMemory\obj\Debug\appsharedMemory.exe
+C:\Users\Abdou Fatah Ndiaye\source\repos\appsharedMemory\appsharedMemory\obj\Debug\appsharedMemory.pdb

@@ -1,0 +1,7 @@
+C:\Users\Abdou Fatah Ndiaye\source\repos\appsharedMemory\MetierSharedMemory\bin\MetierSharedMemory.dll.config
+C:\Users\Abdou Fatah Ndiaye\source\repos\appsharedMemory\MetierSharedMemory\bin\MetierSharedMemory.dll
+C:\Users\Abdou Fatah Ndiaye\source\repos\appsharedMemory\MetierSharedMemory\bin\MetierSharedMemory.pdb
+C:\Users\Abdou Fatah Ndiaye\source\repos\appsharedMemory\MetierSharedMemory\obj\Debug\MetierSharedMemory.csproj.AssemblyReference.cache
+C:\Users\Abdou Fatah Ndiaye\source\repos\appsharedMemory\MetierSharedMemory\obj\Debug\MetierSharedMemory.csproj.CoreCompileInputs.cache
+C:\Users\Abdou Fatah Ndiaye\source\repos\appsharedMemory\MetierSharedMemory\obj\Debug\MetierSharedMemory.dll
+C:\Users\Abdou Fatah Ndiaye\source\repos\appsharedMemory\MetierSharedMemory\obj\Debug\MetierSharedMemory.pdb
