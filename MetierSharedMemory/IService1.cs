@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MetierSharedMemory.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
@@ -18,6 +19,21 @@ namespace MetierSharedMemory
 
         [OperationContract]
         CompositeType GetDataUsingDataContract(CompositeType composite);
+
+        [OperationContract]
+        bool AddJury(Jury jury);
+
+        [OperationContract]
+        bool EditJury(Jury jury);
+
+        [OperationContract]
+        bool DeleteJury(int? juryId);
+
+        [OperationContract]
+        List<Jury> GetJurys();
+
+        [OperationContract]
+        List<Jury> GetJury(string Nom, string Prenom, string Specialite);
 
         // TODO: ajoutez vos opérations de service ici
     }

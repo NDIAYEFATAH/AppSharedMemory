@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:import schemaLocation="http://localhost:58001/Service1.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/MetierSharedMemory" />
+  <xs:import schemaLocation="http://localhost:58001/Service1.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/MetierSharedMemory.Model" />
   <xs:element name="GetData">
     <xs:complexType>
       <xs:sequence>
@@ -26,6 +27,76 @@
     <xs:complexType>
       <xs:sequence>
         <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/MetierSharedMemory" minOccurs="0" name="GetDataUsingDataContractResult" nillable="true" type="q2:CompositeType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddJury">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/MetierSharedMemory.Model" minOccurs="0" name="jury" nillable="true" type="q3:Jury" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddJuryResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AddJuryResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EditJury">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/MetierSharedMemory.Model" minOccurs="0" name="jury" nillable="true" type="q4:Jury" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EditJuryResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="EditJuryResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteJury">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="juryId" nillable="true" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteJuryResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DeleteJuryResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetJurys">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetJurysResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/MetierSharedMemory.Model" minOccurs="0" name="GetJurysResult" nillable="true" type="q5:ArrayOfJury" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetJury">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Nom" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Prenom" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Specialite" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetJuryResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/MetierSharedMemory.Model" minOccurs="0" name="GetJuryResult" nillable="true" type="q6:ArrayOfJury" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>

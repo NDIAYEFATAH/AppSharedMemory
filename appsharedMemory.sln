@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "appsharedMemory", "appsharedMemory\appsharedMemory.csproj", "{39E7C1D2-D9DC-4A62-9770-F16A74B2C871}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B1DA8735-8349-411C-8722-3F869ACB8B74} = {B1DA8735-8349-411C-8722-3F869ACB8B74}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetierSharedMemory", "MetierSharedMemory\MetierSharedMemory.csproj", "{B1DA8735-8349-411C-8722-3F869ACB8B74}"
 EndProject

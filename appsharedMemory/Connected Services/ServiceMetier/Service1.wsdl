@@ -5,6 +5,7 @@
       <xsd:import schemaLocation="http://localhost:58001/Service1.svc?xsd=xsd0" namespace="http://tempuri.org/" />
       <xsd:import schemaLocation="http://localhost:58001/Service1.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
       <xsd:import schemaLocation="http://localhost:58001/Service1.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/MetierSharedMemory" />
+      <xsd:import schemaLocation="http://localhost:58001/Service1.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/MetierSharedMemory.Model" />
     </xsd:schema>
   </wsdl:types>
   <wsdl:message name="IService1_GetData_InputMessage">
@@ -19,6 +20,36 @@
   <wsdl:message name="IService1_GetDataUsingDataContract_OutputMessage">
     <wsdl:part name="parameters" element="tns:GetDataUsingDataContractResponse" />
   </wsdl:message>
+  <wsdl:message name="IService1_AddJury_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddJury" />
+  </wsdl:message>
+  <wsdl:message name="IService1_AddJury_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddJuryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EditJury_InputMessage">
+    <wsdl:part name="parameters" element="tns:EditJury" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EditJury_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EditJuryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteJury_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteJury" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DeleteJury_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteJuryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetJurys_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetJurys" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetJurys_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetJurysResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetJury_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetJury" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetJury_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetJuryResponse" />
+  </wsdl:message>
   <wsdl:portType name="IService1">
     <wsdl:operation name="GetData">
       <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetData" message="tns:IService1_GetData_InputMessage" />
@@ -27,6 +58,26 @@
     <wsdl:operation name="GetDataUsingDataContract">
       <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetDataUsingDataContract" message="tns:IService1_GetDataUsingDataContract_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetDataUsingDataContractResponse" message="tns:IService1_GetDataUsingDataContract_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddJury">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/AddJury" message="tns:IService1_AddJury_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/AddJuryResponse" message="tns:IService1_AddJury_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EditJury">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/EditJury" message="tns:IService1_EditJury_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/EditJuryResponse" message="tns:IService1_EditJury_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteJury">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DeleteJury" message="tns:IService1_DeleteJury_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DeleteJuryResponse" message="tns:IService1_DeleteJury_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetJurys">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetJurys" message="tns:IService1_GetJurys_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetJurysResponse" message="tns:IService1_GetJurys_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetJury">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetJury" message="tns:IService1_GetJury_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetJuryResponse" message="tns:IService1_GetJury_OutputMessage" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
@@ -42,6 +93,51 @@
     </wsdl:operation>
     <wsdl:operation name="GetDataUsingDataContract">
       <soap:operation soapAction="http://tempuri.org/IService1/GetDataUsingDataContract" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddJury">
+      <soap:operation soapAction="http://tempuri.org/IService1/AddJury" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditJury">
+      <soap:operation soapAction="http://tempuri.org/IService1/EditJury" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteJury">
+      <soap:operation soapAction="http://tempuri.org/IService1/DeleteJury" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetJurys">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetJurys" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetJury">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetJury" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
