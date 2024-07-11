@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="dbKireneModelStoreContainer" CdmEntityContainer="dbKireneEntities7">
+    <EntitySetMapping Name="Produit">
+      <EntityTypeMapping TypeName="dbKireneModel.Produit">
+        <MappingFragment StoreEntitySet="Produit">
+          <ScalarProperty Name="idProduit" ColumnName="idProduit" />
+          <ScalarProperty Name="CodeProduit" ColumnName="CodeProduit" />
+          <ScalarProperty Name="DesignationProduit" ColumnName="DesignationProduit" />
+          <ScalarProperty Name="PU" ColumnName="PU" />
+          <ScalarProperty Name="QteMin" ColumnName="QteMin" />
+          <ScalarProperty Name="QteMax" ColumnName="QteMax" />
+          <ScalarProperty Name="CodeCategorie" ColumnName="CodeCategorie" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
