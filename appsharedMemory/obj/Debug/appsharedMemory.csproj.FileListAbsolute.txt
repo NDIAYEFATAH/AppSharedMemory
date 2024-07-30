@@ -46,3 +46,4 @@ C:\Users\Abdou Fatah Ndiaye\source\repos\appsharedMemory\appsharedMemory\obj\Deb
 C:\Users\Abdou Fatah Ndiaye\source\repos\appsharedMemory\appsharedMemory\obj\Debug\appshare.B1F8BBDA.Up2Date
 C:\Users\Abdou Fatah Ndiaye\source\repos\appsharedMemory\appsharedMemory\obj\Debug\appsharedMemory.exe
 C:\Users\Abdou Fatah Ndiaye\source\repos\appsharedMemory\appsharedMemory\obj\Debug\appsharedMemory.pdb
+C:\Users\Abdou Fatah Ndiaye\source\repos\appsharedMemory\appsharedMemory\obj\Debug\appsharedMemory.frmCategorie.resources

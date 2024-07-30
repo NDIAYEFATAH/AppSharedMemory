@@ -17,27 +17,27 @@ namespace appsharedMemory
 {
     public partial class Form1 : Form
     {
-        Service1Client serv;
-        /*ServiceMetier.Service1Client service = new ServiceMetier.Service1Client();*/
+        /*Service1Client serv;*/
+        ServiceMetier.Service1Client service = new ServiceMetier.Service1Client();
         public Form1()
         {
-            /*service = new ServiceMetier.Service1Client();*/
-            serv = new Service1Client("BasicHttpBinding_IService1");
+            service = new ServiceMetier.Service1Client();
+            /*serv = new Service1Client("BasicHttpBinding_IService1");*/
             InitializeComponent();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            try
+            /*try
             {
                 dgJury.DataSource = servGetListJury();
             }
             catch (Exception ex)
             {
                 Console.WriteLine($"Erreur : {ex.Message}");
-            }
-            
-            /*dgJury.DataSource = servGetListJury();*/
+            }*/
+
+            dgJury.DataSource = service.GetJurys();
         }
         public List<Jury> servGetListJury()
         {
@@ -63,7 +63,7 @@ namespace appsharedMemory
             jury.Nom = txtNom.Text;
             jury.Grade = txtGrade.Text;
             jury.Specialite = txtSpecialite.Text;
-            serv.AddJury(jury);
+            service.AddJury(jury);
             Effacer();
         }
 
@@ -73,7 +73,7 @@ namespace appsharedMemory
             txtPrenom.Text = string.Empty;
             txtGrade.Text = string.Empty;
             txtSpecialite.Text = string.Empty;
-            dgJury.DataSource = serv.GetJurys();
+            dgJury.DataSource = service.GetJurys();
             txtNom.Focus();
         }
     }

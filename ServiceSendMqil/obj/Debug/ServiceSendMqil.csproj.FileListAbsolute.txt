@@ -1,0 +1,9 @@
+C:\Users\Abdou Fatah Ndiaye\source\repos\appsharedMemory\ServiceSendMqil\bin\Debug\ServiceSendMqil.exe.config
+C:\Users\Abdou Fatah Ndiaye\source\repos\appsharedMemory\ServiceSendMqil\bin\Debug\ServiceSendMqil.exe
+C:\Users\Abdou Fatah Ndiaye\source\repos\appsharedMemory\ServiceSendMqil\bin\Debug\ServiceSendMqil.pdb
+C:\Users\Abdou Fatah Ndiaye\source\repos\appsharedMemory\ServiceSendMqil\obj\Debug\ServiceSendMqil.csproj.AssemblyReference.cache
+C:\Users\Abdou Fatah Ndiaye\source\repos\appsharedMemory\ServiceSendMqil\obj\Debug\ServiceSendMqil.csproj.CoreCompileInputs.cache
+C:\Users\Abdou Fatah Ndiaye\source\repos\appsharedMemory\ServiceSendMqil\obj\Debug\ServiceSendMqil.exe
+C:\Users\Abdou Fatah Ndiaye\source\repos\appsharedMemory\ServiceSendMqil\obj\Debug\ServiceSendMqil.pdb
+C:\Users\Abdou Fatah Ndiaye\source\repos\appsharedMemory\ServiceSendMqil\obj\Debug\ServiceSendMqil.ProjectInstaller.resources
+C:\Users\Abdou Fatah Ndiaye\source\repos\appsharedMemory\ServiceSendMqil\obj\Debug\ServiceSendMqil.csproj.GenerateResource.cache

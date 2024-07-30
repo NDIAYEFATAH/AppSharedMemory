@@ -12,6 +12,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetierSharedMemory", "Metie
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiSharedMemory", "ApiSharedMemory\ApiSharedMemory.csproj", "{EA1DD403-0637-420A-8AA8-62BC543E34DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceSendMqil", "ServiceSendMqil\ServiceSendMqil.csproj", "{C19B9FEE-56F3-4630-9F93-6DA96AABF71A}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupSendMailg1", "SetupSendMailg1\SetupSendMailg1.vdproj", "{AE95C145-6712-4522-BA59-890F68CDE41B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +34,12 @@ Global
 		{EA1DD403-0637-420A-8AA8-62BC543E34DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA1DD403-0637-420A-8AA8-62BC543E34DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA1DD403-0637-420A-8AA8-62BC543E34DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C19B9FEE-56F3-4630-9F93-6DA96AABF71A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C19B9FEE-56F3-4630-9F93-6DA96AABF71A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C19B9FEE-56F3-4630-9F93-6DA96AABF71A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C19B9FEE-56F3-4630-9F93-6DA96AABF71A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE95C145-6712-4522-BA59-890F68CDE41B}.Debug|Any CPU.ActiveCfg = Debug
+		{AE95C145-6712-4522-BA59-890F68CDE41B}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
